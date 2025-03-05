@@ -1,0 +1,158 @@
+
+
+
+
+.popup_box{
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  cursor: pointer;
+}
+
+.popup_main{
+  width:600px;
+  background-color:azure;
+  margin: auto;
+  cursor: default;
+}
+
+
+.modal_close{
+  background-color: transparent;
+  border:none;
+}
+
+
+.popup{
+  max-width: 440px;
+
+  border-radius: 6px;
+
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  font-size: 25px;
+}
+
+
+
+
+
+.pole{
+  margin-top: 3%;
+  text-align: left;
+}
+
+.pole input{
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  border:1px solid #999;
+  font-size:16px;
+  font-family: Tahoma;
+  border-radius: 10px;
+}
+
+.social p {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.social ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+
+
+
+.modal{
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  display:none;
+  transition: opacity 400ms ease-in-out;
+
+}
+
+.modal_main{
+  position:relative;
+/*  max-width: 600px;*/
+  background-color:azure;
+  margin: auto;
+  color: black;
+  border-radius: 16px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.modal_title{
+
+}
+
+.modal_close{
+  background-color:transparent;
+  border: none;
+  cursor:pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  outline: 1px solid transparent;
+  transition: outline-color .15s easy-in-out;
+  border-radius:3px;
+  padding:0;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+
+}
+
+.modal_close:focus-visible{
+  outline-color: green;
+}
+
+
+
+
+.popup_box{
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  cursor: pointer;
+}
+
+.popup_main{
+  width:600px;
+  background-color:azure;
+  margin: auto;
+  cursor: default;
+}
+
+.btn {
+  padding: 10px 60px;
+  background: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin-top: 10%;
+  box-shadow: 0 5px 5px rgba(0 , 0, 0, 0.2);
+}
+
+
+.btn:hover{
+  color: #fff;
+  background: #c09547;
+}
+
+.modal_close{
+  background-color: transparent;
+  border:none;
+}
+
+
