@@ -56,8 +56,7 @@ header{
 }
 
 .logo{
-  width: 100px;
-  border-radius: 40px;
+  color:#fff;
 }
 
 /*.icon:nth-child(2){
@@ -129,7 +128,7 @@ ul li:not(:first-child){
 
 .content{
   height: 100vh;
-  background-image: url('bac1.png');
+  background-image: url('../img/bc audi.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
@@ -139,7 +138,7 @@ ul li:not(:first-child){
 .main{
   display:flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
 }
 
 .main h1{
@@ -408,6 +407,14 @@ ul li:not(:first-child){
 
 .fooretWrap_element p{
     color:#fff;
+}
+
+.fooretWrap_element p:nth-child(2){
+    padding-top: 5%;
+}
+
+.fooretWrap_element p:nth-child(3){
+    padding-top: 5%;
 }
 
 .footer_title{

@@ -31,7 +31,7 @@
 
   text-align: center;
   padding: 0 30px 30px;
-  color: #333;
+  color: #fff;
   font-size: 25px;
 }
 
@@ -44,13 +44,37 @@
   text-align: left;
 }
 
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; // Yeah, yeah everybody write about it
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+
 .pole input{
+  margin: 3% 0%;
+  color: #FFF;
   width: 100%;
   padding: 5px 10px 5px 10px;
-  border:1px solid #999;
+/*  border:*/
   font-size:16px;
-  font-family: Tahoma;
-  border-radius: 10px;
+/*  font-family: Tahoma;*/
+  border: none;
+  border-bottom: 3px solid #999;
+  background-color: #514648;
+  outline: none;
+}
+
+.pole input:focus{
+  border: none;
+  border-bottom: 3px solid green;
 }
 
 .social p {
@@ -80,16 +104,29 @@
 .modal_main{
   position:relative;
 /*  max-width: 600px;*/
-  background-color:azure;
+  background-color:#514648;
   margin: auto;
-  color: black;
+  color: #fff;
   border-radius: 16px;
   padding: 30px;
-  cursor: pointer;
+
 }
 
-.modal_title{
+.modal_btn{
+    padding: 10px 60px;
+    background: #514648;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-top: 10%;
+    box-shadow: 0 5px 5px rgba(0 , 0, 0, 0.2);
+}
 
+.modal_btn:hover{
+    background: #fff;
 }
 
 .modal_close{
@@ -106,12 +143,13 @@
   text-align: center;
   width: 30px;
   height: 30px;
-
+  font-size: 25px;
 }
 
 .modal_close:focus-visible{
   outline-color: green;
 }
+
 
 
 
