@@ -196,7 +196,7 @@ ul li:not(:first-child){
 }
 
 .Benefit_content{
-  background-image: url('../img/benefit.jpg');
+  background-image: url('../img/chevroletcorvettefront.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
@@ -293,11 +293,12 @@ ul li:not(:first-child){
     background-size: cover;
   background-repeat:no-repeat;
   background-position:center;
+  
 }
 
 /* Стили для лицевой стороны карточки */
 .card-front {
-
+/*box-shadow: inset 400px 20px 20px 20px rgba(0, 0, 0, 0.1);*/
 }
 
 .card-front > h3 {
@@ -314,8 +315,9 @@ ul li:not(:first-child){
 
 /* Стили для обратной стороны карточки */
 .card-back {
-  box-shadow: inset 400px 20px 20px 20px rgba(0, 0, 0, 0.4);
   transform: rotateY(180deg); /* Эффект переворота обратной стороны */
+  background-size: 100%;
+  box-shadow: inset 400px 20px 20px 20px rgba(0, 0, 0, 0.4);
 }
 
 .card-back > h3 {
