@@ -68,13 +68,13 @@ input[type="number"]:focus {
 /*  font-family: Tahoma;*/
   border: none;
   border-bottom: 3px solid #999;
-  background-color: #514648;
+  background-color: #6b0b0c;
   outline: none;
 }
 
 .pole input:focus{
   border: none;
-  border-bottom: 3px solid green;
+  border-bottom: 3px solid black;
 }
 
 .social p {
@@ -104,7 +104,7 @@ input[type="number"]:focus {
 .modal_main{
   position:relative;
 /*  max-width: 600px;*/
-  background-color:#514648;
+  background-color:#6b0b0c;
   margin: auto;
   color: #fff;
   border-radius: 16px;
@@ -114,8 +114,8 @@ input[type="number"]:focus {
 
 .modal_btn{
     padding: 10px 60px;
-    background: #514648;
-    border: 1px solid #fff;
+    background: #6b0b0c;
+    border: 2px solid #fff;
     outline: none;
     cursor: pointer;
     font-size: 22px;
@@ -185,7 +185,7 @@ input[type="number"]:focus {
 
 .btn:hover{
   color: #fff;
-  background: #c09547;
+  background: #6b0b0c;
 }
 
 .modal_close{
