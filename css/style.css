@@ -251,7 +251,8 @@ ul li:not(:first-child){
 
 .colectionAuto p{
     margin-top: 1%;
-    color: white;
+    color: red;
+    font-weight:bold;
 }
 
 .wrap_autoElement{
@@ -307,8 +308,7 @@ ul li:not(:first-child){
 .card-front > h3 {
   font-size: 30px;
   font-weight: bold;
-
-  color: #fff;
+  color: red;
   text-decoration: underline;
   /* Смещаем подчёркивание на 20 пикселей вниз */
   text-underline-offset: 5px;
@@ -356,27 +356,27 @@ ul li:not(:first-child){
 }
 
 .X3{
-  background-image: url("../img/collection/X3.jpg");
+  background-image: url("../img/collection/x31.jpg");
 }
 
 .Escape{
-  background-image: url("../img/collection/Escape.jpg");
+  background-image: url("../img/collection/ford1.jpg");
 }
 
 .Encore{
-  background-image: url("../img/collection/Encore.jpg");
+  background-image: url("../img/collection/encore1.jpg");
 }
 
 .Jetta{
-  background-image: url("../img/collection/Jetta.jpg");
+  background-image: url("../img/collection/Jetta1.jpg");
 }
 
 .XC60{
-  background-image: url("../img/collection/XC60.jpg");
+  background-image: url("../img/collection/XC601.jpg");
 }
 
 .Taos{
-  background-image: url("../img/collection/Taos.jpg");
+  background-image: url("../img/collection/Taos1.jpg");
 }
 
 .Malibu{
@@ -384,11 +384,11 @@ ul li:not(:first-child){
 }
 
 .Q5{
-  background-image: url("../img/collection/Q5.jpg");
+  background-image: url("../img/collection/Q51.jpg");
 }
 
 .X5{
-  background-image: url("../img/collection/X5.jpg");
+  background-image: url("../img/collection/X51.jpg");
 }
 
 .footer{
@@ -625,11 +625,16 @@ ul li:not(:first-child){
 
 @media  (/*(min-width: 300px) */ max-width: 565px) {
   .main_wrap h1 {
-    font-size: 1em;
+    font-size: 1.3em;
   }
 }
 
 @media  (/*(min-width: 300px) */ max-width: 500px) {
+  
+  .main_wrap h1 {
+    font-size: 1.2em;
+  }
+
   .autoElement {
     margin-top: 2%;
   }
@@ -637,6 +642,27 @@ ul li:not(:first-child){
   .card {
     width: 350px;
   }
+
+}
+
+@media  (/*(min-width: 300px) */ max-width: 450px) {
+  
+  .main_wrap h1 {
+    font-size: 1em;
+  }
+
+}
+
+@media  (/*(min-width: 300px) */ max-width: 380px) {
+  
+  .main_wrap h1 {
+    font-size: 0.9em;
+  }
+
+.btn {
+        padding: 2px 4px;
+        font-size: 16px;
+    }
 
 
 }
