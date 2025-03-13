@@ -666,3 +666,27 @@ ul li:not(:first-child){
 
 
 }
+
+@media  (/*(min-width: 300px) */ max-width: 330px) {
+  
+  .main_wrap h1 {
+    font-size: 0.8em;
+  }
+
+  .main_wrap {
+    margin-top: 9%;
+    margin-bottom: 17%;
+    padding-right:0;
+  }
+
+
+
+   
+
+.btn {
+        padding: 2px 4px;
+        font-size: 16px;
+    }
+
+
+}
